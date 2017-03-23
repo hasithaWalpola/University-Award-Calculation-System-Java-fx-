@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="866.0" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Resit1Controller">
+   <children>
+      <ImageView fitHeight="610.0" fitWidth="874.0" layoutX="-2.0" layoutY="-2.0">
+         <image>
+            <Image url="@../../Resit.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="47.0" layoutY="172.0" prefHeight="29.0" prefWidth="105.0" text="Module  5.1" textFill="WHITE">
+         <font>
+            <Font name="Andalus" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="47.0" layoutY="201.0" prefHeight="29.0" prefWidth="105.0" text="Module  5.2" textFill="WHITE">
+         <font>
+            <Font name="Andalus" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="47.0" layoutY="230.0" prefHeight="29.0" prefWidth="105.0" text="Module  5.3" textFill="WHITE">
+         <font>
+            <Font name="Andalus" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="164.0" layoutY="143.0" prefHeight="29.0" prefWidth="124.0" text=" In Class Test 01" textFill="WHITE">
+         <font>
+            <Font name="Andalus" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="313.0" layoutY="143.0" prefHeight="29.0" prefWidth="124.0" text=" In Class Test 02" textFill="WHITE">
+         <font>
+            <Font name="Andalus" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="469.0" layoutY="143.0" prefHeight="29.0" prefWidth="124.0" text="Course Work" textFill="WHITE">
+         <font>
+            <Font name="Andalus" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="644.0" layoutY="143.0" prefHeight="29.0" prefWidth="66.0" text="Total" textFill="WHITE">
+         <font>
+            <Font name="Andalus" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="748.0" layoutY="143.0" prefHeight="29.0" prefWidth="80.0" text="Pass/Fail" textFill="WHITE">
+         <font>
+            <Font name="Andalus" size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="Resit1ICT11" layoutX="164.0" layoutY="174.0" prefHeight="25.0" prefWidth="124.0" promptText="Enter Only an Integer">
+         <font>
+            <Font name="Andalus" size="11.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="Resit1ICT21" layoutX="164.0" layoutY="203.0" prefHeight="25.0" prefWidth="124.0" promptText="Enter Only an Integer">
+         <font>
+            <Font name="Andalus" size="11.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="Resit1ICT31" layoutX="163.0" layoutY="232.0" prefHeight="25.0" prefWidth="124.0" promptText="Enter Only an Integer">
+         <font>
+            <Font name="Andalus" size="11.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="Resit1ICT12" layoutX="312.0" layoutY="174.0" prefHeight="25.0" prefWidth="124.0" promptText="Enter Only an Integer">
+         <font>
+            <Font name="Andalus" size="11.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="Resit1ICT22" layoutX="312.0" layoutY="203.0" prefHeight="25.0" prefWidth="124.0" promptText="Enter Only an Integer">
+         <font>
+            <Font name="Andalus" size="11.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="Resit1ICT32" layoutX="312.0" layoutY="232.0" prefHeight="25.0" prefWidth="124.0" promptText="Enter Only an Integer">
+         <font>
+            <Font name="Andalus" size="11.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="Resit1CW1" layoutX="461.0" layoutY="174.0" prefHeight="25.0" prefWidth="124.0" promptText="Enter Only an Integer">
+         <font>
+            <Font name="Andalus" size="11.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="Resit1CW2" layoutX="461.0" layoutY="203.0" prefHeight="25.0" prefWidth="124.0" promptText="Enter Only an Integer">
+         <font>
+            <Font name="Andalus" size="11.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="Resit1CW3" layoutX="461.0" layoutY="232.0" prefHeight="25.0" prefWidth="124.0" promptText="Enter Only an Integer">
+         <font>
+            <Font name="Andalus" size="11.0" />
+         </font>
+      </TextField>
+      <Label fx:id="Resit1T1" layoutX="648.0" layoutY="172.0" prefHeight="29.0" prefWidth="66.0" textFill="WHITE">
+         <font>
+            <Font name="Andalus" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="Resit1T2" layoutX="648.0" layoutY="201.0" prefHeight="29.0" prefWidth="66.0" textFill="WHITE">
+         <font>
+            <Font name="Andalus" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="Resit1T3" layoutX="648.0" layoutY="230.0" prefHeight="29.0" prefWidth="66.0" textFill="WHITE">
+         <font>
+            <Font name="Andalus" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="Resit1PF1" layoutX="756.0" layoutY="172.0" prefHeight="29.0" prefWidth="80.0" textFill="WHITE">
+         <font>
+            <Font name="Andalus" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="Resit1PF2" layoutX="756.0" layoutY="201.0" prefHeight="29.0" prefWidth="80.0" textFill="WHITE">
+         <font>
+            <Font name="Andalus" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="Resit1PF3" layoutX="756.0" layoutY="230.0" prefHeight="29.0" prefWidth="80.0" textFill="WHITE">
+         <font>
+            <Font name="Andalus" size="18.0" />
+         </font>
+      </Label>
+      <Button layoutX="443.0" layoutY="292.0" mnemonicParsing="false" onAction="#Resit1CalculateResults" prefHeight="51.0" prefWidth="160.0" style="-fx-background-color: #323232;" text="Calculate Results" textFill="WHITE">
+         <font>
+            <Font name="Andalus" size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="556.0" layoutY="560.0" mnemonicParsing="false" onAction="#Resit1Exit" prefHeight="33.0" prefWidth="140.0" style="-fx-background-color: RED;" text="Exit From Level Five" textFill="WHITE">
+         <font>
+            <Font name="Andalus" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="L5Continue" layoutX="714.0" layoutY="560.0" mnemonicParsing="false" onAction="#Resit1Continue" prefHeight="33.0" prefWidth="148.0" style="-fx-background-color: #0c5000;" text="Continue to Level Six" textFill="WHITE">
+         <font>
+            <Font name="Andalus" size="14.0" />
+         </font>
+      </Button>
+      <Label layoutX="117.0" layoutY="104.0" prefHeight="17.0" prefWidth="516.0" text="Please enter the number of modules that the student has faced" textFill="WHITE">
+         <font>
+            <Font name="Andalus" size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="Resit1NoOfModules" layoutX="591.0" layoutY="102.0" promptText="Enter only an integer">
+         <font>
+            <Font name="Andalus" size="14.0" />
+         </font>
+      </TextField>
+   </children>
+</AnchorPane>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="866.0" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.CetDipController">
+   <children>
+      <ImageView fitHeight="607.0" fitWidth="873.0" layoutX="-1.0" layoutY="-2.0">
+         <image>
+            <Image url="@../../Certificate%20of%20higher%20education.jpg" />
+         </image>
+      </ImageView>
+      <Button layoutX="281.0" layoutY="430.0" mnemonicParsing="false" onAction="#CetDip" prefHeight="52.0" prefWidth="265.0" style="-fx-background-color: #797979;" text="Continue to the Next Student">
+         <font>
+            <Font name="Andalus" size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
